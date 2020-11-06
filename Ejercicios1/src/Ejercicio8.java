@@ -12,11 +12,11 @@ public class Ejercicio8 {
 		 System.out.println("Dime el mes que estamos");
 		 mes=leer.next();
 		 
-		 if (mes=="octubre"|mes=="Octubte") {
-			 System.out.println("El precio es "+(precio*0.15));
+		 if (mes.equalsIgnoreCase("octubre")) {
+			 System.out.println("El precio es "+(precio-(precio*0.15)));
 			
 		}else {
-			System.out.println("El precio es " + precio);
+			System.out.println("El precio es " + precio + "euros");
 		}
 		
 		 

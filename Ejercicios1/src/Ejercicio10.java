@@ -15,7 +15,6 @@ public class Ejercicio10 {
 				num=leer.nextFloat();
 				
 			}
-		}else {
 			if(num%2 == 0){
 				System.out.println("El numero es par");
 				
